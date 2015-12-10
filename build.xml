@@ -1,0 +1,85 @@
+<project name="SeleniumCI" basedir="." default="main">
+
+	<property name="src.dir" value="src" />
+
+	<property name="build.dir" value="build" />
+	<property name="classes.dir" value="${build.dir}/classes" />
+
+	<property name="report" value="report" />
+
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="compile">
+		<mkdir dir="${classes.dir}" />
+		<javac srcdir="${src.dir}" destdir="${classes.dir}">
+			<classpath>
+				<fileset dir="lib">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+	</target>
+
+	
+
+	<target name="run" depends="compile">
+
+		<java classname="com.ontestautomation.selenium.ci.SeleniumCITest">
+			<classpath>
+				<pathelement path="${classes.dir}" />
+				<fileset dir="lib">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+
+		</java>
+
+	</target>
+	<target name="run-tests" depends="compile">
+		
+			<junit printsummary="on">
+				<classpath>
+					<pathelement path="${classes.dir}" />
+					<fileset dir="lib">
+						<include name="**/*.jar" />
+					</fileset>
+				</classpath>
+				<batchtest fork="yes" todir="${reports}/raw/">
+					<formatter type="xml" />
+					<fileset dir="${src.dir}">
+						<include name="com.ontestautomation.selenium.ci.SeleniumCITest.java" />
+					</fileset>
+				</batchtest>
+			</junit>
+		</target>
+
+	<target name="exec" depends="compile">
+	  <delete dir="${report}" />
+	  <mkdir dir="${report}" />
+	   <mkdir dir="${report}/xml" />
+	  <junit printsummary="yes" haltonfailure="no">
+	   <classpath>
+	    <pathelement location="${classes.dir}" />
+	    <fileset dir="lib">
+	     <include name="**/*.jar" />
+	    </fileset>
+	   </classpath>
+
+	   <test name="com.ontestautomation.selenium.ci.SeleniumCITest" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
+	    <formatter type="xml" />
+	   </test>
+	  </junit>
+	  <junitreport todir="${report}">
+	   <fileset dir="${report}/xml">
+	    <include name="TEST*.xml" />
+	   </fileset>
+	   <report format="frames" todir="${report}/html" />
+	  </junitreport>
+	 </target>
+	<target name="main" depends="clean,exec" />
+
+</project>
