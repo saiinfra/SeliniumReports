@@ -82,7 +82,7 @@
 	  </junitreport>
 	 </target>
 	<target name="main" depends="clean,exec" >
-		<echo message="${name}" />
+		<echo message="${label}" />
 		</target>
 
 </project>
