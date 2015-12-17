@@ -7,8 +7,8 @@
 
 	<property name="report" value="report" />
 
-	<property environment="env"/>
-	<property name="label" value="${env.JOB_NAME}-${env.BUILD_NUMBER}"/>
+	<property environment="env" />
+	<property name="label" value="${env.WORKSPACE}"/>
 	<target name="clean">
 		<delete dir="${build.dir}" />
 	</target>
