@@ -7,7 +7,8 @@
 
 	<property name="report" value="report" />
 
-
+	<property environment="env"/>
+	<property name="label" value="${env.JOB_NAME}-${env.BUILD_NUMBER}"/>
 	<target name="clean">
 		<delete dir="${build.dir}" />
 	</target>
@@ -80,6 +81,8 @@
 	   <report format="frames" todir="${report}/html" />
 	  </junitreport>
 	 </target>
-	<target name="main" depends="clean,exec" />
+	<target name="main" depends="clean,exec" >
+		<echo message="${name}" />
+		</target>
 
 </project>
