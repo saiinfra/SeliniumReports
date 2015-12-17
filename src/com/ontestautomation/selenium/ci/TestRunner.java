@@ -2,6 +2,7 @@ package com.ontestautomation.selenium.ci;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 import org.jsoup.Jsoup;
@@ -14,12 +15,11 @@ import org.junit.Test;
 public class TestRunner {
 	@Test
 	public void test() {
-		
 
 		
 		 Document htmlFile = null;
 	        try {
-	            htmlFile = Jsoup.parse(new File("/home/srikanth/.jenkins/workspace/SeliniumReports/report/html/all-tests.html"), "ISO-8859-1");
+	            htmlFile = Jsoup.parse(new File("/var/lib/jenkins/jobs/TestFramework2/workspace/report/html/all-tests.html"), "ISO-8859-1");
 	        } catch (IOException e) {
 	            // TODO Auto-generated catch block
 	            e.printStackTrace();
