@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="srikanth-desktop" id="0" name="TestSuite" package="com.ontestautomation.selenium.ci" skipped="0" tests="4" time="27.421" timestamp="2015-12-17T10:49:17">
+  <testsuite errors="0" failures="1" hostname="srikanth-desktop" id="0" name="TestSuite" package="com.ontestautomation.selenium.ci" skipped="0" tests="4" time="30.518" timestamp="2015-12-17T11:00:11">
       <properties>
           <property name="ant.project.invoked-targets" value="main" />
 
@@ -34,7 +34,7 @@
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
 
-          <property name="user.dir" value="/home/srikanth/salesforce/seleniumCI" />
+          <property name="user.dir" value="/home/srikanth/SeliniumReports" />
 
           <property name="java.runtime.version" value="1.7.0_80-b15" />
 
@@ -42,7 +42,7 @@
 
           <property name="eclipse.pdebuild.scripts" value="/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
 
-          <property name="basedir" value="/home/srikanth/salesforce/seleniumCI" />
+          <property name="basedir" value="/home/srikanth/SeliniumReports" />
 
           <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed" />
 
@@ -84,7 +84,7 @@
 
           <property name="os.version" value="3.19.0-31-generic" />
 
-          <property name="ant.file" value="/home/srikanth/salesforce/seleniumCI/build.xml" />
+          <property name="ant.file" value="/home/srikanth/SeliniumReports/build.xml" />
 
           <property name="user.home" value="/home/srikanth" />
 
@@ -102,7 +102,7 @@
 
           <property name="java.vm.specification.version" value="1.7" />
 
-          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450349356861 -Declipse.connect.port=58990 -Declipse.pdebuild.home=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.// -Declipse.pdebuild.scripts=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts// -Declipse.pdebuild.templates=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates// -Dant.home=/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/srikanth/salesforce/seleniumCI/build.xml" />
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450350010204 -Declipse.connect.port=41300 -Declipse.pdebuild.home=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.// -Declipse.pdebuild.scripts=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts// -Declipse.pdebuild.templates=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates// -Dant.home=/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/srikanth/SeliniumReports/build.xml" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -110,7 +110,7 @@
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.file.SeleniumCI" value="/home/srikanth/salesforce/seleniumCI/build.xml" />
+          <property name="ant.file.SeleniumCI" value="/home/srikanth/SeliniumReports/build.xml" />
 
           <property name="user.language" value="en" />
 
@@ -148,9 +148,9 @@
 
       <testcase classname="com.ontestautomation.selenium.ci.TestOne" name="testcaseOne" time="0.001" />
 
-      <testcase classname="com.ontestautomation.selenium.ci.TestTwo" name="testcaseTwo" time="0.001" />
+      <testcase classname="com.ontestautomation.selenium.ci.TestTwo" name="testcaseTwo" time="0.0" />
 
-      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="thisTestShouldFail" time="12.424">
+      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="thisTestShouldFail" time="12.984">
           <failure message="expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;
 	at com.ontestautomation.selenium.ci.SeleniumCITest.thisTestShouldFail(Unknown Source)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
@@ -160,7 +160,7 @@
 
       </testcase>
 
-      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="successfulLoginLogout" time="14.889" />
+      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="successfulLoginLogout" time="17.428" />
 
       <system-out><![CDATA[Hello im in test case one
 Hello im in test case two
