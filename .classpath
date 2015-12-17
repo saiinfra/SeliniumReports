@@ -54,5 +54,6 @@
 	<classpathentry kind="lib" path="/home/srikanth/Downloads/selenium-2.48.2/libs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="/home/srikanth/Downloads/selenium-2.48.2/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/home/srikanth/Downloads/selenium-2.48.2/libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="/home/srikanth/Downloads/jsoup-1.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
