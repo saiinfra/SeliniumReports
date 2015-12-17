@@ -9,9 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
 
 public class SeleniumCITest {
 	
@@ -20,9 +18,7 @@ public class SeleniumCITest {
 	@Before
 	public void setup() {
 		
-		FirefoxProfile	profile = new FirefoxProfile();
-		driver = new FirefoxDriver(new FirefoxBinary(new File(
-				"/usr/bin/firefox")), profile);
+	
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);				
 	}
