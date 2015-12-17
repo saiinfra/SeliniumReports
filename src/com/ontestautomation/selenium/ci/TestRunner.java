@@ -19,7 +19,7 @@ public class TestRunner {
 		
 		 Document htmlFile = null;
 	        try {
-	            htmlFile = Jsoup.parse(new File("/home/srikanth/.jenkins/workspace/SeliniumReports/report/alltests.html"), "ISO-8859-1");
+	            htmlFile = Jsoup.parse(new File("/home/srikanth/.jenkins/workspace/SeliniumReports/report/html/all-tests.html"), "ISO-8859-1");
 	        } catch (IOException e) {
 	            // TODO Auto-generated catch block
 	            e.printStackTrace();
