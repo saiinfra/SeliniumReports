@@ -25,7 +25,7 @@ public class TestRunner {
 	            e.printStackTrace();
 	        } // right
 	        ArrayList<HTMLTestCaseDO> list = new ArrayList<>();
-	        Element table = htmlFile.select("table").get(5); //select the first table.
+	        Element table = htmlFile.select("table").get(1); //select the first table.
 	        Elements rows = table.select("tr");
 
 	        for (int i = 1; i < rows.size(); i++) { //first row is the col names so skip it.
