@@ -51,7 +51,7 @@
 				<batchtest fork="yes" todir="${reports}/raw/">
 					<formatter type="xml" />
 					<fileset dir="${src.dir}">
-						<include name="com.ontestautomation.selenium.ci.SeleniumCITest.java" />
+						<include name="com.ontestautomation.selenium.ci.TestSuite.java" />
 					</fileset>
 				</batchtest>
 			</junit>
@@ -69,7 +69,7 @@
 	    </fileset>
 	   </classpath>
 
-	   <test name="com.ontestautomation.selenium.ci.SeleniumCITest" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
+	   <test name="com.ontestautomation.selenium.ci.TestSuite" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
 	    <formatter type="xml" />
 	   </test>
 	  </junit>
