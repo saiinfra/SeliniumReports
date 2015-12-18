@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="1" hostname="srikanth-PC" name="com.ontestautomation.selenium.ci.TestSuite" skipped="0" tests="5" time="95.354" timestamp="2015-12-17T17:48:53">
+<testsuite errors="1" failures="0" hostname="srikanth-PC" name="com.ontestautomation.selenium.ci.TestRunner1" skipped="0" tests="1" time="0.394" timestamp="2015-12-18T01:05:50">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -77,7 +77,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-antlr.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bcel.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bsf.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-log4j.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-oro.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-regexp.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-resolver.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-xalan2.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-logging.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-net.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jai.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-javamail.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jdepend.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jmf.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jsch.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-netrexx.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-swing.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-testutil.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;D:\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\antdebug.jar;D:\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\remote.jar;D:\eclipse\configuration\org.eclipse.osgi\80\0\.cp\lib\remoteAnt.jar;C:\java\jdk1.7.0_71\lib\tools.jar;D:\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.104.0.v20150528-0211.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450374519009 -Declipse.connect.port=50231 -Declipse.pdebuild.home=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./ -Declipse.pdebuild.scripts=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/ -Declipse.pdebuild.templates=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/ -Dant.home=D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\SeliniumReports\build.xml" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450400747232 -Declipse.connect.port=52427 -Declipse.pdebuild.home=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./ -Declipse.pdebuild.scripts=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/ -Declipse.pdebuild.templates=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/ -Dant.home=D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\SeliniumReports\build.xml" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="env.LOGONSERVER" value="\\SRIKANTH-PC" />
     <property name="env.windir" value="C:\Windows" />
@@ -116,80 +116,14 @@
     <property name="ant.project.invoked-targets" value="main" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="com.ontestautomation.selenium.ci.TestOne" name="testcaseOne" time="0.002" />
-  <testcase classname="com.ontestautomation.selenium.ci.TestTwo" name="testcaseTwo" time="0.0" />
-  <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="thisTestShouldFail" time="42.492">
-    <failure message="expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;
-	at com.ontestautomation.selenium.ci.SeleniumCITest.thisTestShouldFail(Unknown Source)
-	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
-</failure>
-  </testcase>
-  <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="successfulLoginLogout" time="52.292" />
-  <testcase classname="com.ontestautomation.selenium.ci.TestRunner" name="test" time="0.056">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.ontestautomation.selenium.ci.TestRunner.test(Unknown Source)
+  <testcase classname="com.ontestautomation.selenium.ci.TestRunner1" name="initializationError" time="0.009">
+    <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
 	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
 </error>
   </testcase>
-  <system-out><![CDATA[Hello im in test case one
-Hello im in test case two
-]]></system-out>
-  <system-err><![CDATA[java.io.FileNotFoundException: \var\lib\jenkins\jobs\TestFramework2\workspace\report\html\all-tests.html (The system cannot find the path specified)
-	at java.io.FileInputStream.open(Native Method)
-	at java.io.FileInputStream.<init>(FileInputStream.java:146)
-	at org.jsoup.helper.DataUtil.load(DataUtil.java:37)
-	at org.jsoup.Jsoup.parse(Jsoup.java:89)
-	at com.ontestautomation.selenium.ci.TestRunner.test(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:1614)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:1019)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeOrQueue(JUnitTask.java:2095)
-	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:828)
-	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
-	at org.apache.tools.ant.Task.perform(Task.java:348)
-	at org.apache.tools.ant.Target.execute(Target.java:435)
-	at org.apache.tools.ant.Target.performTasks(Target.java:456)
-	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
-	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
-	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
-	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
-	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
-]]></system-err>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
