@@ -49,11 +49,11 @@ public class TestRunner1 {
 							Element row = rows.get(i);
 							Elements cols = row.select("td");
 							HTMLTestCaseDO htmlTestCaseDO = new HTMLTestCaseDO();
-							System.out.println(cols.get(0).text());
-							htmlTestCaseDO.setTestcasename(cols.get(0).text());
-							htmlTestCaseDO.setStatus(cols.get(1).text());
-							htmlTestCaseDO.setType(cols.get(2).text());
-							htmlTestCaseDO.setTime(cols.get(3).text());
+							System.out.println(cols.get(1).text());
+							htmlTestCaseDO.setTestcasename(cols.get(1).text());
+							htmlTestCaseDO.setStatus(cols.get(2).text());
+							htmlTestCaseDO.setType(cols.get(3).text());
+							htmlTestCaseDO.setTime(cols.get(4).text());
 							list.add(htmlTestCaseDO);
 
 						}
