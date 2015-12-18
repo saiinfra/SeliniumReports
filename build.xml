@@ -25,11 +25,11 @@
 
 	</target>
 
-	
+
 
 	<target name="run" depends="compile">
 
-		<java classname="com.ontestautomation.selenium.ci.TestRunner1">
+		<java classname="com.ontestautomation.selenium.ci.SeleniumCITest">
 			<classpath>
 				<pathelement path="${classes.dir}" />
 				<fileset dir="lib">
@@ -41,63 +41,88 @@
 
 	</target>
 	<target name="run-tests" depends="compile">
-		
-			<junit printsummary="on">
-				<classpath>
-					<pathelement path="${classes.dir}" />
-					<fileset dir="lib">
-						<include name="**/*.jar" />
-					</fileset>
-				</classpath>
-				<batchtest fork="yes" todir="${reports}/raw/">
-					<formatter type="xml" />
-					<fileset dir="${src.dir}">
-						<include name="com.ontestautomation.selenium.ci.TestRunner1.java" />
-					</fileset>
-				</batchtest>
-			</junit>
-		</target>
+
+		<junit printsummary="on">
+			<classpath>
+				<pathelement path="${classes.dir}" />
+				<fileset dir="lib">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+			<batchtest fork="yes" todir="${reports}/raw/">
+				<formatter type="xml" />
+				<fileset dir="${src.dir}">
+					<include name="com.ontestautomation.selenium.ci.SeleniumCITest.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
 	<target name="all1" depends="compile">
-			<property name="testparam" value="com.ontestautomation.selenium.ci.TestSuite" />
-			<echo> Running test class ${testparam}......... </echo>
-			<property name="testparam" value="" />
-			<echo> Running Testframework for testcase : ${testparam}......... </echo>
+		<delete dir="${report}" />
+				<mkdir dir="${report}" />
+				<mkdir dir="${report}/xml" />
+			
+				<junit printsummary="yes" haltonfailure="no">
+					<classpath>
+						<pathelement location="${classes.dir}" />
+						<fileset dir="lib">
+							<include name="**/*.jar" />
+						</fileset>
+					</classpath>
 
-			<java classname="com.ontestautomation.selenium.ci.TestRunner1">
-				 <classpath>
-					    <pathelement location="${classes.dir}" />
-					    <fileset dir="lib">
-					     <include name="**/*.jar" />
-					    </fileset>
-					   </classpath>
-				<arg value= "${testparam}" />
-			</java>
-		</target>
+					<test name="com.ontestautomation.selenium.ci.SeleniumCITest" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
+						<formatter type="xml" />
+					</test>
+				</junit>
+				
+				<junitreport todir="${report}">
+					<fileset dir="${report}/xml">
+						<include name="TEST*.xml" />
+					</fileset>
+					<report format="frames" todir="${report}/html" />
+				</junitreport>
+		<property name="testparam" value="com.ontestautomation.selenium.ci.SeleniumCITest" />
+		<echo> Running test class ${testparam}......... </echo>
+		<property name="testparam" value="" />
+		<echo> Running Testframework for testcase : ${testparam}......... </echo>
+		
+		<java classname="com.ontestautomation.selenium.ci.TestRunner1">
+			<classpath>
+				<pathelement location="${classes.dir}" />
+				<fileset dir="lib">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+			<arg value= "${testparam}" />
+		</java>
+	</target>
 	<target name="exec" depends="compile">
-	  <delete dir="${report}" />
-	  <mkdir dir="${report}" />
-	   <mkdir dir="${report}/xml" />
-	  <junit printsummary="yes" haltonfailure="no">
-	   <classpath>
-	    <pathelement location="${classes.dir}" />
-	    <fileset dir="lib">
-	     <include name="**/*.jar" />
-	    </fileset>
-	   </classpath>
+		<delete dir="${report}" />
+		<mkdir dir="${report}" />
+		<mkdir dir="${report}/xml" />
+	
+		<junit printsummary="yes" haltonfailure="no">
+			<classpath>
+				<pathelement location="${classes.dir}" />
+				<fileset dir="lib">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
 
-	   <test name="com.ontestautomation.selenium.ci.TestRunner1" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
-	    <formatter type="xml" />
-	   </test>
-	  </junit>
-	  <junitreport todir="${report}">
-	   <fileset dir="${report}/xml">
-	    <include name="TEST*.xml" />
-	   </fileset>
-	   <report format="frames" todir="${report}/html" />
-	  </junitreport>
-	 </target>
+			<test name="com.ontestautomation.selenium.ci.SeleniumCITest" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
+				<formatter type="xml" />
+			</test>
+		</junit>
+		
+		<junitreport todir="${report}">
+			<fileset dir="${report}/xml">
+				<include name="TEST*.xml" />
+			</fileset>
+			<report format="frames" todir="${report}/html" />
+		</junitreport>
+	</target>
 	<target name="main" depends="clean,all1" >
 		<echo message="${label}" />
-		</target>
+	</target>
 
 </project>

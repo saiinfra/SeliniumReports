@@ -1,246 +1,284 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="srikanth-PC" id="0" name="TestRunner1" package="com.ontestautomation.selenium.ci" skipped="0" tests="1" time="0.394" timestamp="2015-12-18T01:05:50">
+  <testsuite errors="0" failures="1" hostname="srikanth-desktop" id="0" name="SeleniumCITest" package="com.ontestautomation.selenium.ci" skipped="0" tests="2" time="24.352" timestamp="2015-12-18T07:46:32">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
+          <property name="env.SESSION_MANAGER" value="local/srikanth-desktop:@/tmp/.ICE-unix/2010,unix/srikanth-desktop:/tmp/.ICE-unix/2010" />
+
+          <property name="env.IM_CONFIG_PHASE" value="1" />
+
+          <property name="env.LIBOVERLAY_SCROLLBAR" value="0" />
+
           <property name="sun.java.launcher" value="SUN_STANDARD" />
 
-          <property name="eclipse.pdebuild.templates" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+          <property name="eclipse.pdebuild.templates" value="/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates//" />
+
+          <property name="env.QT_IM_MODULE" value="ibus" />
 
           <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
 
-          <property name="env.PROMPT" value="$P$G" />
+          <property name="os.name" value="Linux" />
 
-          <property name="os.name" value="Windows 7" />
+          <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1827" />
 
-          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes" />
 
-          <property name="sun.boot.class.path" value="C:\java\jdk1.7.0_71\jre\lib\resources.jar;C:\java\jdk1.7.0_71\jre\lib\rt.jar;C:\java\jdk1.7.0_71\jre\lib\sunrsasign.jar;C:\java\jdk1.7.0_71\jre\lib\jsse.jar;C:\java\jdk1.7.0_71\jre\lib\jce.jar;C:\java\jdk1.7.0_71\jre\lib\charsets.jar;C:\java\jdk1.7.0_71\jre\lib\jfr.jar;C:\java\jdk1.7.0_71\jre\classes" />
-
-          <property name="env.HerokuPath" value="C:\Program Files (x86)\Heroku" />
-
-          <property name="env.COMPUTERNAME" value="SRIKANTH-PC" />
-
-          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+          <property name="env.PWD" value="/home/srikanth" />
 
           <property name="report" value="report" />
 
-          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+          <property name="sun.desktop" value="gnome" />
 
-          <property name="sun.desktop" value="windows" />
+          <property name="env.LANG" value="en_IN" />
 
           <property name="java.vm.specification.vendor" value="Oracle Corporation" />
 
-          <property name="ant.home" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+          <property name="env.XDG_MENU_PREFIX" value="gnome-" />
 
-          <property name="java.runtime.version" value="1.7.0_71-b14" />
+          <property name="ant.home" value="/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502" />
 
-          <property name="env.HOMEPATH" value="\Users\srikanth" />
+          <property name="java.runtime.version" value="1.7.0_80-b15" />
+
+          <property name="env.GTK_IM_MODULE" value="ibus" />
+
+          <property name="env.DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path" />
+
+          <property name="env.XDG_VTNR" value="7" />
+
+          <property name="env.DISPLAY" value=":0.0" />
 
           <property name="label" value="${env.WORKSPACE}" />
 
           <property name="user.name" value="srikanth" />
 
+          <property name="env.QT4_IM_MODULE" value="xim" />
+
+          <property name="env.USER" value="srikanth" />
+
+          <property name="env.SHELL" value="/bin/bash" />
+
+          <property name="env.DESKTOP_SESSION" value="ubuntu" />
+
+          <property name="env.XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/" />
+
+          <property name="env.NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat" />
+
           <property name="build.dir" value="build" />
+
+          <property name="env.PATH" value="/usr/lib/jvm/java-7-oracle/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games" />
+
+          <property name="env.XDG_CURRENT_DESKTOP" value="Unity" />
 
           <property name="user.language" value="en" />
 
-          <property name="sun.boot.library.path" value="C:\java\jdk1.7.0_71\jre\bin" />
+          <property name="env.XDG_SESSION_DESKTOP" value="ubuntu" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64" />
 
           <property name="ant.project.default-target" value="main" />
 
           <property name="ant.project.name" value="SeleniumCI" />
 
-          <property name="java.version" value="1.7.0_71" />
-
-          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel" />
+          <property name="java.version" value="1.7.0_80" />
 
           <property name="user.timezone" value="" />
 
-          <property name="env.TEMP" value="C:\Users\srikanth\AppData\Local\Temp" />
+          <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-egmVzvlB24" />
 
           <property name="sun.arch.data.model" value="64" />
 
-          <property name="env.classpath" value="D:\jarfiles\ojdbc6.jar;" />
+          <property name="env.COMPIZ_CONFIG_PROFILE" value="ubuntu" />
 
-          <property name="java.endorsed.dirs" value="C:\java\jdk1.7.0_71\jre\lib\endorsed" />
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed" />
 
-          <property name="sun.cpu.isalist" value="amd64" />
+          <property name="env.JDK_HOME" value="/usr/lib/jvm/java-7-oracle" />
 
-          <property name="env.HOMEDRIVE" value="C:" />
+          <property name="sun.cpu.isalist" value="" />
 
-          <property name="sun.jnu.encoding" value="Cp1252" />
+          <property name="sun.jnu.encoding" value="UTF-8" />
 
           <property name="file.encoding.pkg" value="sun.io" />
 
-          <property name="file.separator" value="\" />
+          <property name="env.SHLVL" value="0" />
+
+          <property name="file.separator" value="/" />
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
           <property name="classes.dir" value="build/classes" />
 
+          <property name="env.GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated" />
+
           <property name="java.class.version" value="51.0" />
+
+          <property name="env.GDMSESSION" value="ubuntu" />
 
           <property name="user.country" value="IN" />
 
-          <property name="java.home" value="C:\java\jdk1.7.0_71\jre" />
+          <property name="env.GNOME_KEYRING_PID" value="" />
 
-          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
-
-          <property name="env.APPDATA" value="C:\Users\srikanth\AppData\Roaming" />
-
-          <property name="env.PUBLIC" value="C:\Users\Public" />
+          <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre" />
 
           <property name="java.vm.info" value="mixed mode" />
 
-          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+          <property name="env.LOGNAME" value="srikanth" />
 
-          <property name="env.OS" value="Windows_NT" />
+          <property name="ant.file" value="/home/srikanth/SeliniumReports/build.xml" />
 
-          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+          <property name="os.version" value="3.19.0-31-generic" />
 
-          <property name="ant.file" value="C:\SeliniumReports\build.xml" />
+          <property name="path.separator" value=":" />
 
-          <property name="os.version" value="6.1" />
+          <property name="java.vm.version" value="24.80-b11" />
 
-          <property name="env.ProgramW6432" value="C:\Program Files" />
+          <property name="env.LANGUAGE" value="en_IN:en" />
 
-          <property name="path.separator" value=";" />
+          <property name="ant.library.dir" value="/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib" />
 
-          <property name="java.vm.version" value="24.71-b01" />
+          <property name="env.XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0" />
 
-          <property name="env.USERPROFILE" value="C:\Users\srikanth" />
+          <property name="env.QT_QPA_PLATFORMTHEME" value="appmenu-qt5" />
 
-          <property name="user.variant" value="" />
+          <property name="env.JAVA_HOME" value="/usr/lib/jvm/java-7-oracle" />
 
-          <property name="ant.library.dir" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
+          <property name="env.SESSIONTYPE" value="gnome-session" />
 
-          <property name="env.JAVA_HOME" value="C:\jdk1.6.0_21" />
+          <property name="env.XDG_SESSION_TYPE" value="x11" />
 
-          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-
-          <property name="env.TMP" value="C:\Users\srikanth\AppData\Local\Temp" />
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
 
           <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
 
-          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
 
-          <property name="user.script" value="" />
+          <property name="env.XMODIFIERS" value="@im=ibus" />
 
-          <property name="eclipse.pdebuild.scripts" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+          <property name="eclipse.pdebuild.scripts" value="/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
 
-          <property name="user.home" value="C:\Users\srikanth" />
+          <property name="env.GDM_LANG" value="en_US" />
 
-          <property name="env.ProgramData" value="C:\ProgramData" />
+          <property name="user.home" value="/home/srikanth" />
 
-          <property name="env.SESSIONNAME" value="Console" />
-
-          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+          <property name="env.JOB" value="dbus" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
           <property name="java.vendor.url" value="http://java.oracle.com/" />
 
-          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib:/home/srikanth/softwares/eclipse/configuration/org.eclipse.osgi/673/0/.cp" />
 
-          <property name="java.library.path" value="C:\Windows\system32;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\product\11.1.0\db_3\bin;C:\app\srikanth\product\11.1.0\db_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;%JAVA_HOME%;C:\maven3.3\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\jdk1.6.0_21\bin;.;D:\eclipse\configuration\org.eclipse.osgi\747\0\.cp" />
+          <property name="env.GIO_LAUNCHED_DESKTOP_FILE" value="/etc/xdg/autostart/nautilus-autostart.desktop" />
+
+          <property name="env.XDG_SEAT" value="seat0" />
 
           <property name="java.vm.vendor" value="Oracle Corporation" />
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-antlr.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bcel.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bsf.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-log4j.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-oro.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-regexp.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-resolver.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-xalan2.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-logging.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-net.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jai.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-javamail.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jdepend.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jmf.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jsch.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-netrexx.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-swing.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-testutil.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;D:\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\antdebug.jar;D:\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\remote.jar;D:\eclipse\configuration\org.eclipse.osgi\80\0\.cp\lib\remoteAnt.jar;C:\java\jdk1.7.0_71\lib\tools.jar;D:\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.104.0.v20150528-0211.jar" />
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
 
-          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+          <property name="java.class.path" value="/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-antlr.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-bcel.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-bsf.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-log4j.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-oro.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-regexp.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-resolver.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-xalan2.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-commons-logging.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-commons-net.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jai.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-javamail.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jdepend.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jmf.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jsch.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-netrexx.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-swing.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-testutil.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/home/srikanth/softwares/eclipse/configuration/org.eclipse.osgi/64/0/.cp/lib/antdebug.jar:/home/srikanth/softwares/eclipse/configuration/org.eclipse.osgi/64/0/.cp/lib/remote.jar:/home/srikanth/softwares/eclipse/configuration/org.eclipse.osgi/65/0/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-7-oracle/lib/tools.jar:/home/srikanth/softwares/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64_3.103.0.v20140605-2012.jar" />
 
-          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450400747232 -Declipse.connect.port=52427 -Declipse.pdebuild.home=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./ -Declipse.pdebuild.scripts=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/ -Declipse.pdebuild.templates=/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/ -Dant.home=D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\SeliniumReports\build.xml" />
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450424791154 -Declipse.connect.port=60178 -Declipse.pdebuild.home=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.// -Declipse.pdebuild.scripts=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts// -Declipse.pdebuild.templates=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates// -Dant.home=/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/srikanth/SeliniumReports/build.xml" />
+
+          <property name="env.XDG_SESSION_ID" value="c3" />
+
+          <property name="env.XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt" />
 
           <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-
-          <property name="env.LOGONSERVER" value="\\SRIKANTH-PC" />
-
-          <property name="env.windir" value="C:\Windows" />
-
-          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
 
           <property name="java.vm.specification.version" value="1.7" />
 
           <property name="sun.cpu.endian" value="little" />
 
-          <property name="sun.os.patch.level" value="" />
+          <property name="sun.os.patch.level" value="unknown" />
 
-          <property name="env.ProgramFiles" value="C:\Program Files" />
+          <property name="env.HOME" value="/home/srikanth" />
 
-          <property name="env.ANT_HOME" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+          <property name="env.ANT_HOME" value="/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502" />
 
-          <property name="env.PROCESSOR_REVISION" value="2a07" />
+          <property name="eclipse.pdebuild.home" value="/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.//" />
 
-          <property name="eclipse.pdebuild.home" value="/D:/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+          <property name="env.XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0" />
 
-          <property name="java.io.tmpdir" value="C:\Users\srikanth\AppData\Local\Temp\" />
-
-          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+          <property name="java.io.tmpdir" value="/tmp" />
 
           <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
 
-          <property name="env.SystemRoot" value="C:\Windows" />
+          <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh" />
 
-          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+          <property name="env.CLUTTER_IM_MODULE" value="xim" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
 
           <property name="os.arch" value="amd64" />
 
+          <property name="env.INSTANCE" value="" />
+
+          <property name="env.SWT_GTK3" value="0" />
+
           <property name="ant.file.type.SeleniumCI" value="file" />
 
-          <property name="java.ext.dirs" value="C:\java\jdk1.7.0_71\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
 
-          <property name="user.dir" value="C:\SeliniumReports" />
+          <property name="env.XDG_RUNTIME_DIR" value="/run/user/1000" />
 
-          <property name="env.LOCALAPPDATA" value="C:\Users\srikanth\AppData\Local" />
+          <property name="user.dir" value="/home/srikanth/SeliniumReports" />
 
-          <property name="line.separator" value="&#xd;&#xa;" />
+          <property name="env.SESSION" value="ubuntu" />
+
+          <property name="env.XAUTHORITY" value="/home/srikanth/.Xauthority" />
+
+          <property name="env.MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path" />
+
+          <property name="env.GTK_MODULES" value="overlay-scrollbar:unity-gtk-module" />
+
+          <property name="line.separator" value="&#xa;" />
 
           <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
 
-          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW" />
+          <property name="env.JRE_HOME" value="/usr/lib/jvm/java-7-oracle" />
 
-          <property name="env.Path" value="C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\product\11.1.0\db_3\bin;C:\app\srikanth\product\11.1.0\db_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files (x86)\Roxio\OEM\AudioCore\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;%JAVA_HOME%;C:\maven3.3\bin;C:\Program Files\MySQL\MySQL Server 5.6\bin;C:\jdk1.6.0_21\bin" />
+          <property name="basedir" value="/home/srikanth/SeliniumReports" />
 
-          <property name="basedir" value="C:\SeliniumReports" />
+          <property name="env.XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/srikanth" />
 
-          <property name="ant.file.SeleniumCI" value="C:\SeliniumReports\build.xml" />
+          <property name="ant.file.SeleniumCI" value="/home/srikanth/SeliniumReports/build.xml" />
 
           <property name="ant.java.version" value="1.7" />
 
-          <property name="ant.core.lib" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar" />
+          <property name="ant.core.lib" value="/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar" />
 
-          <property name="env.USERNAME" value="srikanth" />
+          <property name="file.encoding" value="UTF-8" />
 
-          <property name="env.SystemDrive" value="C:" />
+          <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring/gpg:0:1" />
 
-          <property name="file.encoding" value="Cp1252" />
-
-          <property name="env.USERDOMAIN" value="srikanth-PC" />
+          <property name="env.GIO_LAUNCHED_DESKTOP_FILE_PID" value="2184" />
 
           <property name="java.specification.version" value="1.7" />
 
+          <property name="env.GNOME_KEYRING_CONTROL" value="" />
+
           <property name="src.dir" value="src" />
+
+          <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg" />
 
           <property name="ant.project.invoked-targets" value="main" />
 
-          <property name="env.PROCESSOR_LEVEL" value="6" />
-
       </properties>
 
-      <testcase classname="com.ontestautomation.selenium.ci.TestRunner1" name="initializationError" time="0.009">
-          <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="thisTestShouldFail" time="7.293">
+          <failure message="expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;
+	at com.ontestautomation.selenium.ci.SeleniumCITest.thisTestShouldFail(Unknown Source)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
-</error>
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:452)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:139)
+</failure>
 
       </testcase>
+
+      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="successfulLoginLogout" time="16.95" />
 
       <system-out><![CDATA[]]></system-out>
 
