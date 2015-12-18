@@ -29,7 +29,7 @@
 
 	<target name="run" depends="compile">
 
-		<java classname="com.ontestautomation.selenium.ci.SeleniumCITest">
+		<java classname="com.ontestautomation.selenium.ci.TestSuite">
 			<classpath>
 				<pathelement path="${classes.dir}" />
 				<fileset dir="lib">
@@ -70,7 +70,7 @@
 						</fileset>
 					</classpath>
 
-					<test name="com.ontestautomation.selenium.ci.SeleniumCITest" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
+					<test name="com.ontestautomation.selenium.ci.TestSuite" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
 						<formatter type="xml" />
 					</test>
 				</junit>
@@ -81,7 +81,7 @@
 					</fileset>
 					<report format="frames" todir="${report}/html" />
 				</junitreport>
-		<property name="testparam" value="com.ontestautomation.selenium.ci.SeleniumCITest" />
+		<property name="testparam" value="com.ontestautomation.selenium.ci.TestSuite" />
 		<echo> Running test class ${testparam}......... </echo>
 		<property name="testparam" value="" />
 		<echo> Running Testframework for testcase : ${testparam}......... </echo>
@@ -109,7 +109,7 @@
 				</fileset>
 			</classpath>
 
-			<test name="com.ontestautomation.selenium.ci.SeleniumCITest" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
+			<test name="com.ontestautomation.selenium.ci.TestSuite" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
 				<formatter type="xml" />
 			</test>
 		</junit>
