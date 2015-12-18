@@ -4,7 +4,6 @@ package com.ontestautomation.selenium.ci;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.StringTokenizer;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -51,7 +50,7 @@ public class TestRunner1 {
 
 				 Document htmlFile = null;
 			        try {
-			            htmlFile = Jsoup.parse(new File("/var/lib/jenkins/jobs/TestFramework2/workspace/report/html/all-tests.html"), "ISO-8859-1");
+			            htmlFile = Jsoup.parse(new File("/home/srikanth/.jenkins/jobs/workspace/TestFramework2/report/html/all-tests.html"), "ISO-8859-1");
 			        	//htmlFile = Jsoup.parse(new File("/var/lib/jenkins/jobs/TestFramework2/workspace/success.html"), "ISO-8859-1");
 			        } catch (IOException e) {
 			            // TODO Auto-generated catch block
