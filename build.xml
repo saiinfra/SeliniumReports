@@ -59,33 +59,31 @@
 	</target>
 	<target name="all1" depends="compile">
 		<delete dir="${report}" />
-				<mkdir dir="${report}" />
-				<mkdir dir="${report}/xml" />
-			
-				<junit printsummary="yes" haltonfailure="no">
-					<classpath>
-						<pathelement location="${classes.dir}" />
-						<fileset dir="lib">
-							<include name="**/*.jar" />
-						</fileset>
-					</classpath>
+		<mkdir dir="${report}" />
+		<mkdir dir="${report}/xml" />
 
-					<test name="com.ontestautomation.selenium.ci.TestSuite" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
-						<formatter type="xml" />
-					</test>
-				</junit>
-				
-				<junitreport todir="${report}">
-					<fileset dir="${report}/xml">
-						<include name="TEST*.xml" />
-					</fileset>
-					<report format="frames" todir="${report}/html" />
-				</junitreport>
+		<junit printsummary="yes" haltonfailure="no">
+			<classpath>
+				<pathelement location="${classes.dir}" />
+				<fileset dir="lib">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+
+			
+		</junit>
+
+		<junitreport todir="${report}">
+			<fileset dir="${report}/xml">
+				<include name="TEST*.xml" />
+			</fileset>
+			<report format="frames" todir="${report}/html" />
+		</junitreport>
 		<property name="testparam" value="com.ontestautomation.selenium.ci.TestSuite" />
 		<echo> Running test class ${testparam}......... </echo>
 		<property name="testparam" value="" />
 		<echo> Running Testframework for testcase : ${testparam}......... </echo>
-		
+
 		<java classname="com.ontestautomation.selenium.ci.TestRunner1">
 			<classpath>
 				<pathelement location="${classes.dir}" />
@@ -100,7 +98,7 @@
 		<delete dir="${report}" />
 		<mkdir dir="${report}" />
 		<mkdir dir="${report}/xml" />
-	
+
 		<junit printsummary="yes" haltonfailure="no">
 			<classpath>
 				<pathelement location="${classes.dir}" />
@@ -113,7 +111,7 @@
 				<formatter type="xml" />
 			</test>
 		</junit>
-		
+
 		<junitreport todir="${report}">
 			<fileset dir="${report}/xml">
 				<include name="TEST*.xml" />
