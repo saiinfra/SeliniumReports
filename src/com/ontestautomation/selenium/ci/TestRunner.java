@@ -17,7 +17,7 @@ public class TestRunner {
 	public void test() {
 
 		
-		 Document htmlFile = null;
+		/* Document htmlFile = null;
 	        try {
 	           // htmlFile = Jsoup.parse(new File("/var/lib/jenkins/jobs/TestFramework2/workspace/report/html/all-tests.html"), "ISO-8859-1");
 	        	htmlFile = Jsoup.parse(new File("/var/lib/jenkins/jobs/TestFramework2/workspace/success.html"), "ISO-8859-1");
@@ -43,7 +43,7 @@ public class TestRunner {
 	        }
 	        System.out.println(list.toString());
 	
-		
+		*/
 		
 		
 	
