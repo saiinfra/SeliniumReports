@@ -70,7 +70,9 @@
 				</fileset>
 			</classpath>
 
-			
+			<test name="com.ontestautomation.selenium.ci.TestSuite" haltonfailure="no" todir="${report}/xml" outfile="TEST-result">
+				<formatter type="xml" />
+			</test>
 		</junit>
 
 		<junitreport todir="${report}">

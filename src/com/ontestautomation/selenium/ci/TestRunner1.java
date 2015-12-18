@@ -33,7 +33,7 @@ public class TestRunner1 {
 					try {
 						htmlFile = Jsoup
 								.parse(new File(
-										"/home/srikanth/.jenkins/workspace/SeliniumReports/report/html/all-tests.html"),
+										"/home/srikanth/SeliniumReports/report/html/all-tests.html"),
 										"ISO-8859-1");
 						System.out.println("loaded");
 						ArrayList<HTMLTestCaseDO> list = new ArrayList<>();

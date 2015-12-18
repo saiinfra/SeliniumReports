@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	TestOne.class,TestTwo.class,SeleniumCITest.class})
+	TestOne.class,TestTwo.class,SeleniumCITest.class,RackspaceContactAutomation.class})
 
 public class TestSuite{
 }

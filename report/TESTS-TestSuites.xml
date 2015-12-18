@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="srikanth-desktop" id="0" name="SeleniumCITest" package="com.ontestautomation.selenium.ci" skipped="0" tests="2" time="24.352" timestamp="2015-12-18T07:46:32">
+  <testsuite errors="0" failures="1" hostname="srikanth-desktop" id="0" name="TestSuite" package="com.ontestautomation.selenium.ci" skipped="0" tests="4" time="22.562" timestamp="2015-12-18T08:33:49">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -180,7 +180,7 @@
 
           <property name="java.class.path" value="/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-antlr.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-bcel.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-bsf.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-log4j.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-oro.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-regexp.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-resolver.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-apache-xalan2.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-commons-logging.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-commons-net.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jai.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-javamail.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jdepend.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jmf.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-jsch.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-netrexx.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-swing.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-testutil.jar:/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/home/srikanth/softwares/eclipse/configuration/org.eclipse.osgi/64/0/.cp/lib/antdebug.jar:/home/srikanth/softwares/eclipse/configuration/org.eclipse.osgi/64/0/.cp/lib/remote.jar:/home/srikanth/softwares/eclipse/configuration/org.eclipse.osgi/65/0/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-7-oracle/lib/tools.jar:/home/srikanth/softwares/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64_3.103.0.v20140605-2012.jar" />
 
-          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450424791154 -Declipse.connect.port=60178 -Declipse.pdebuild.home=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.// -Declipse.pdebuild.scripts=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts// -Declipse.pdebuild.templates=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates// -Dant.home=/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/srikanth/SeliniumReports/build.xml" />
+          <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1450427628619 -Declipse.connect.port=43500 -Declipse.pdebuild.home=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.// -Declipse.pdebuild.scripts=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts// -Declipse.pdebuild.templates=/home/srikanth/softwares/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates// -Dant.home=/home/srikanth/softwares/eclipse/plugins/org.apache.ant_1.9.2.v201404171502 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/srikanth/SeliniumReports/build.xml" />
 
           <property name="env.XDG_SESSION_ID" value="c3" />
 
@@ -268,7 +268,11 @@
 
       </properties>
 
-      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="thisTestShouldFail" time="7.293">
+      <testcase classname="com.ontestautomation.selenium.ci.TestOne" name="testcaseOne" time="0.001" />
+
+      <testcase classname="com.ontestautomation.selenium.ci.TestTwo" name="testcaseTwo" time="0.0" />
+
+      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="thisTestShouldFail" time="9.781">
           <failure message="expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;ParaBank | [Welcome] | Online Banking&gt; but was:&lt;ParaBank | [How are you today?] | Online Banking&gt;
 	at com.ontestautomation.selenium.ci.SeleniumCITest.thisTestShouldFail(Unknown Source)
 	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
@@ -278,9 +282,11 @@
 
       </testcase>
 
-      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="successfulLoginLogout" time="16.95" />
+      <testcase classname="com.ontestautomation.selenium.ci.SeleniumCITest" name="successfulLoginLogout" time="12.672" />
 
-      <system-out><![CDATA[]]></system-out>
+      <system-out><![CDATA[Hello im in test case one
+Hello im in test case two
+]]></system-out>
 
       <system-err><![CDATA[]]></system-err>
 

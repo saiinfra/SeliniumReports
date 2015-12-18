@@ -35,7 +35,7 @@ public class SeleniumCITest {
 		driver.findElement(By.linkText("Log Out")).click();
 		Assert.assertEquals(driver.getTitle(), "ParaBank | Welcome | Online Banking");
 	}
-/*
+
 	@Test
 	public void incorrectLogin() {
 		
@@ -48,7 +48,7 @@ public class SeleniumCITest {
 		String errorText = driver.findElement(By.cssSelector("p[class='error']")).getText();
 		Assert.assertEquals(errorText, "The username and password could not be verified.");
 	}
-	*/
+	
 	
 	@Test
 	public void thisTestShouldFail() {
